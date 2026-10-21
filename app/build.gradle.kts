@@ -44,6 +44,14 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    // --- Agregadas para el proyecto ---
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+    implementation("io.coil-kt:coil-compose:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    // ----------------------------------
+
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
